@@ -1,0 +1,262 @@
+
+@import url(' https://fonts.cdnfonts.com/css/chinese-rocks ');
+                                                
+
+:root{
+    --fonte-principal: chinese-rocks;
+    font-size: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Chinese Rocks Rg', sem serifa;
+    font-size: 30px;
+}
+
+/* navegação*/
+nav{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul li {
+    text-align: left;
+    list-style: none;
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#menu nav ul li {
+    float: left;
+    border-radius: 8px;
+}
+
+nav ul.right li {
+    float: right;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.crearfix::before,
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+nav ul li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+[class*="col-"] {
+    float: left; padding-right:5px;
+}
+
+/*grid com 12 colunas*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.32%;}
+.col-5 { width: 41.65%;}
+.col-6 {width: 49.98%;}
+.col-7 {width: 58.31%;}
+.col-8 {width: 66.64%;}
+.col-9 {width: 74.97%;}
+.col-10 {width: 83.3%;}
+.col-11 {width: 91.63%;}
+.col-12 {width: 100%;}
+
+
+/*ajuste nas imagens*/
+img {
+    width: 100%;
+}
+
+img.img_ajuste {
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+#joga H1 {
+    color: red;
+}
+
+#info H1 {
+    color: red;
+}
+
+#joga H2 {
+    color: darkred;
+}
+
+#info H2 {
+    color: darkred;
+}
+
+#base {
+    background-color: black;
+    color: white;
+}
+
+#joga {
+    background-color: black;
+    color: white;
+}
+
+#info {
+    background-color: black;
+    color: white;
+}
+
+#trai {
+    background-color: black;
+    color: white;
+}
+
+section#base {
+    background-color: black;
+    padding: 20px 0;
+}
+
+section#base ul {
+    text-align: center;
+}
+
+section#base ul li {
+    display: inline;
+    padding: 0 80px;
+}
+
+section#base ul li a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+/*passar o mouse */
+section#base ul li a:hover {
+    background-color: red;
+    color: white;
+}
+
+
+
+#historia {
+    background-color: black;
+    color: white;
+}
+
+#info {
+    background-color: black;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+.imagem {
+    background-image: url('../img/fundo.jpg');
+    background-color: #fff;
+    color: (black);
+    background-size: 100%;
+}
+
+/*imagem banner atrás*/
+.banner {
+    position: relative;
+    color: white;
+}
+
+.banner::before {
+    content: "";
+    background-image: url('../img/fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: absolute;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.banner .container {
+    position: relative;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding-bottom: 40px;
+} 
+
+footer ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+footer img {
+    width: 60px;
+}
+
+footer .direita {
+    text-align: right;
+}
+
+footer ul li a {
+color: white;
+font-size: 30px;
+}
+
+footer h1 {
+    color: white;
+}
+
+#games {
+    background-color: black;
+    color: white;
+}
+
+#games h1{
+    color: red;
+}
+
+#games h2{
+    color: darkred ;
+}
+
+nav ul.right li:hover{
+    background-color: red;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 60px;
+}
+
+footer .esquerda {
+    text-align: left;
+}
+
